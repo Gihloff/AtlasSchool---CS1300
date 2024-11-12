@@ -1,0 +1,9 @@
+Github:
+-Go over Github actions and commands. Make sure you understand organization and different commands needed for course.
+-We will be using github for assignments, make sure to be uploading to the class repo.
+
+-Look into Docker for learning more about setting up and using virtual machines. (Dev Containers)
+    -Can be used to share the same "workspace" between machines (Home PC and laptop).
+    -Helps keep the same environment on different machines for the same project. Sometimes a project may not run as inteded in a different
+    workspace due to versions, or other specifics that were setup in the original environment.
+    -Docker helps to share the same environment "settings" across multiple devices or workspaces.
