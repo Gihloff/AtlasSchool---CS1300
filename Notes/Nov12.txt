@@ -7,3 +7,9 @@ Github:
     -Helps keep the same environment on different machines for the same project. Sometimes a project may not run as inteded in a different
     workspace due to versions, or other specifics that were setup in the original environment.
     -Docker helps to share the same environment "settings" across multiple devices or workspaces.
+
+HTML:
+- Need index, home, or default is the default HTML file.
+
+(Use w3 Schools to test code instantly and cleanly)
+
