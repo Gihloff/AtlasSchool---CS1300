@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="color-scheme" content="light dark">
-        <title>Contact Me</title>
-        <nav>
-            <a href="../AboutMe/homepage.html">Home Page</a>
-            <a href="../AboutMe/interests.html">Interests</a>
-            <a href="../AboutMe/media_gallery.html">Media Gallery</a>
-            <a href="../AboutMe/contact_me.html">Contact Me</a>
-             
-        </nav>
-    </head>
-    <body>
-        <h1>Contact Me</h1>
-        <p>My name is Gabe Ihloff, I am 25 years old from Tulsa Oklahoma,
-             currently studying machine learning at Atlas School.</p>
-        <section>
-        </section>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <title>Contact Me</title>
+    <meta name="application-name" content="contact_me">
+    <meta name="author" content="Gabriel Ihloff">
+    <meta name="description" content="A contact me page with a form to collect user's information like name, email, number,
+         and a checkbox to subscribe to newsletter.">
+    <meta name="keywords" content="contact,name,email,number,subscribe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../AboutMe/images/favicon.png" type="image/png">
+    <nav>
+        <a href="../AboutMe/homepage.html">Home Page</a>
+        <a href="../AboutMe/interests.html">Interests</a>
+        <a href="../AboutMe/media_gallery.html">Media Gallery</a>
+        <a href="../AboutMe/contact_me.html">Contact Me</a>
+
+    </nav>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <!-- <form action="/register" method="post"> -->
+    <form>
+        <fieldset>
+            <legend>Contact Me</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="number" id="phonenumber" name="phonenumber"><br>
+            <label for="subscribe">Subcribe to Newsletter?</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br>
+            <button type="submit">Submit Form</button>
+        </fieldset>
+
+    </form>
     <footer>
         <nav>
             <a href="https://github.com/Gihloff">Github</a>
             <a href="https://linkedin.com/in/gabe-ihloff-4305a697/">LinkedIn</a>
         </nav>
     </footer>
-    </body>
+</body>
+
 </html>
